@@ -25,9 +25,9 @@ leetcode-hot-question-100/
 
 | 序号 | 题目 | 难度 | 标签 | 状态 |
 |------|------|------|------|------|
-| 1 | [两数之和](src/leetcode100/question1.java) | 简单 | 数组、哈希表 | ✅ |
-| 2 | [字母异位词分组](src/leetcode100/question2.java) | 中等 | 数组、哈希表、字符串 | ✅ |
-| 3 | [最长连续序列](src/leetcode100/question3.java) | 中等 | 数组、红黑树 | ✅  |
+| 1 | [两数之和](src/leetcode100/Question1.java) | 简单 | 数组、哈希表 | ✅ |
+| 2 | [字母异位词分组](src/leetcode100/Question2.java) | 中等 | 数组、哈希表、字符串 | ✅ |
+| 3 | [最长连续序列](src/leetcode100/Question3.java) | 中等 | 数组、红黑树 | ✅  |
 | ... | ... | ... | ... | ... |
 
 ## 🚀 使用说明

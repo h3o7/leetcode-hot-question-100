@@ -2,7 +2,7 @@ package leetcode100;
 
 import java.util.*;
 
-public class question2 {
+public class Question2 {
 
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> result = new ArrayList<>();
@@ -40,5 +40,7 @@ public class question2 {
         }
         return new ArrayList<>(map.values());
     }
+
+
 
 }

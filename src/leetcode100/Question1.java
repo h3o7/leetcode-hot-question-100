@@ -2,7 +2,7 @@ package leetcode100;
 
 import java.util.HashMap;
 
-public class question1 {
+public class Question1 {
 
     public int[] twoSum(int[] nums, int target){
         int[] result = new int[2];

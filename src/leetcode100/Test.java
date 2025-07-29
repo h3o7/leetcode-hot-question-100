@@ -1,5 +1,6 @@
 package leetcode100;
 
+import java.util.function.Consumer;
 import java.util.function.Function;
 
 public class Test {
@@ -15,9 +16,15 @@ public class Test {
         String str2 = "ashc";
         test(str,str1 -> str1.length() );
         // 函数式接口，上面的函数表示str,为传递的参数，str1 -> str1.length()表示函数体，返回值为str1的长度
+        Consumer<String> consumer = System.out::println;
+        test2("1234",s -> System.out.println(s.length()));
     }
 
     public static void test(String str,Function<String,Integer> function){
         System.out.println(function.apply(str));
+    }
+
+    public static void test2(String str ,Consumer<String> consumer){
+        consumer.accept(str);
     }
 }

@@ -46,7 +46,7 @@ cd leetcode-hot-question-100
 javac src/leetcode100/*.java
 
 # 运行（需要自己添加main方法测试）
-java -cp src leetcode100.Question1
+java -cp src leetcode100.hash.Question1
 ```
 
 3. **IDE导入**

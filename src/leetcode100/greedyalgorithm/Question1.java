@@ -1,4 +1,4 @@
-package leetcode100.greed;
+package leetcode100.greedyalgorithm;
 
 public class Question1 {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class Question1 {
                 buy = num;
             } else {
                 int temp = num - buy;
-                profit = temp > profit ? temp : profit;
+                profit = Math.max(temp, profit);
             }
         }
         return profit;

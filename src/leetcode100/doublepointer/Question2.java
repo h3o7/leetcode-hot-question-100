@@ -9,11 +9,11 @@ public class Question2 {
             if (height[left] < height[right]) {
                 left++;
                 int temp = (right - left) * Math.min(height[left], height[right]);
-                max = max > temp ? max : temp;
+                max = Math.max(max, temp);
             } else {
                 right--;
                 int temp = (right - left) * Math.min(height[left], height[right]);
-                max = max > temp ? max : temp;
+                max = Math.max(max, temp);
             }
         }
         return max;

@@ -1,16 +1,19 @@
 package leetcode100;
 
-import java.util.HashMap;
-import java.util.LinkedHashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
 public class Test {
     public static void main(String[] args) {
-        Map<Integer,String> map = new HashMap<>();
-        Set<Integer> set = new LinkedHashSet<>();
+        Stack<Integer> stack = new Stack<>();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        System.out.println(stack);
+        stack.pop();
+        System.out.println(stack);
+        int num = Integer.MAX_VALUE;
 
     }
 
